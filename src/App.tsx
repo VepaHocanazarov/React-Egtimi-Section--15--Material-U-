@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import LessonTypography from './Components/LessonTypography';
 
 function App() {
   return (
     <div className="App">
-      React Uygulamam
+     <LessonTypography/>
     </div>
   );
 }
