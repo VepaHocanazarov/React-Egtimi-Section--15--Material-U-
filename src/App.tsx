@@ -4,6 +4,7 @@ import LessonTypography from './Components/LessonTypography';
 import { LessonButton } from './Components/LessonButton';
 import { LessonButtonGroup } from './Components/LessonButtonGroup';
 import { LessonTextField } from './Components/LessonTextField';
+import { RadioGroups } from './Components/RadioGroups';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <LessonTypography/> */}
       {/* <LessonButton /> */}
       {/* <LessonButtonGroup/> */}
-      <LessonTextField/>
+      {/* <LessonTextField/> */}
+      <RadioGroups/>
     </div>
   );
 }
