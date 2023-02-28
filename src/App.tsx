@@ -10,6 +10,7 @@ import { Selects } from './Components/Selects';
 import { Checkboxs } from './Components/Checkboxs';
 import { LessonAutoComplete } from './Components/LessonAutoComplete';
 import { LessonBox } from './Components/LessonBox';
+import { LessonStack } from './Components/LessonStack';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <Selects/> */}
       {/* <Checkboxs/> */}
       {/* <LessonAutoComplete/> */}
-      <LessonBox/>
+      {/* <LessonBox/> */}
+      <LessonStack/>
     </div>
   );
 }
