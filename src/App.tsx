@@ -8,6 +8,7 @@ import { RadioGroups } from './Components/RadioGroups';
 import { RadioExample } from './Components/RadioExample';
 import { Selects } from './Components/Selects';
 import { Checkboxs } from './Components/Checkboxs';
+import { LessonAutoComplete } from './Components/LessonAutoComplete';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <RadioGroups/> */}
       {/* <RadioExample/> */}
       {/* <Selects/> */}
-      <Checkboxs/>
+      {/* <Checkboxs/> */}
+      <LessonAutoComplete/>
     </div>
   );
 }
