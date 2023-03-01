@@ -12,6 +12,7 @@ import { LessonAutoComplete } from './Components/LessonAutoComplete';
 import { LessonBox } from './Components/LessonBox';
 import { LessonStack } from './Components/LessonStack';
 import { LessonGrid } from './Components/LessonGrid';
+import { LessonCard } from './Components/LessonCard';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <LessonAutoComplete/> */}
       {/* <LessonBox/> */}
       {/* <LessonStack/> */}
-      <LessonGrid/>
+      {/* <LessonGrid/> */}
+      <LessonCard/>
     </div>
   );
 }
