@@ -11,6 +11,7 @@ import { Checkboxs } from './Components/Checkboxs';
 import { LessonAutoComplete } from './Components/LessonAutoComplete';
 import { LessonBox } from './Components/LessonBox';
 import { LessonStack } from './Components/LessonStack';
+import { LessonGrid } from './Components/LessonGrid';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <Checkboxs/> */}
       {/* <LessonAutoComplete/> */}
       {/* <LessonBox/> */}
-      <LessonStack/>
+      {/* <LessonStack/> */}
+      <LessonGrid/>
     </div>
   );
 }
