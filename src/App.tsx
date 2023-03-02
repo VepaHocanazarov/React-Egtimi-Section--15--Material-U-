@@ -20,6 +20,7 @@ import { LessonPaper } from './Components/LessonPaper';
 import { LessonLink } from './Components/LessonLink';
 import { LessonBreadCeumb } from './Components/LessonBreadCeumb';
 import { LessonDrawer } from './Components/LessonDrawer';
+import { LessonBadge } from './Components/LessonBadge';
 
 function App() {
   return (
@@ -43,7 +44,8 @@ function App() {
       {/* <LessonPaper/> */}
       {/* <LessonLink/> */}
       {/* <LessonBreadCeumb/> */}
-      <LessonDrawer/>
+      {/* <LessonDrawer/> */}
+      <LessonBadge/>
     </div>
   );
 }
