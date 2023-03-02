@@ -16,21 +16,21 @@ export const LessonImageList = () => {
         ))}
       </ImageList>
 
-      {/* <ImageList cols={3} variant='woven' >
+      <ImageList cols={3} variant='woven' >
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img src={item.img} alt="" loading='lazy' />
           </ImageListItem>
         ))}
-      </ImageList> */}
+      </ImageList>
 
-      {/* <ImageList cols={3} variant='masonry' >
+      <ImageList cols={3} variant='masonry' >
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img src={item.img} alt="" loading='lazy' />
           </ImageListItem>
         ))}
-      </ImageList> */}
+      </ImageList>
     </Stack>
 
 
