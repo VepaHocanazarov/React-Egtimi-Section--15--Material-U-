@@ -17,6 +17,7 @@ import { LessonAccardion } from './Components/LessonAccardion';
 import { LessonAppBar } from './Components/LessonAppBar';
 import { LessonImageList } from './Components/LessonImageList';
 import { LessonPaper } from './Components/LessonPaper';
+import { LessonLink } from './Components/LessonLink';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <LessonAccardion/> */}
       {/* <LessonAppBar/> */}
       {/* <LessonImageList/> */}
-      <LessonPaper/>
+      {/* <LessonPaper/> */}
+      <LessonLink/>
     </div>
   );
 }
