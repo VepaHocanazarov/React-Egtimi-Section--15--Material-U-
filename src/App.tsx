@@ -27,6 +27,7 @@ import { LessonAvatar } from './Components/LessonAvatar';
 import { LessonList } from './Components/LessonList';
 import { LessonToolTip } from './Components/LessonToolTip';
 import { LessonAlert } from './Components/LessonAlert';
+import { LessonDialog } from './Components/LessonDialog';
 
 function App() {
   return (
@@ -57,7 +58,8 @@ function App() {
       {/* <LessonAvatar/> */}
       {/* <LessonList/> */}
       {/* <LessonToolTip/> */}
-      <LessonAlert/>
+      {/* <LessonAlert/> */}
+      <LessonDialog/>
     </div>
   );
 }
