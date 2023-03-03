@@ -24,6 +24,7 @@ import { LessonBadge } from './Components/LessonBadge';
 import { LessonSpeedDial } from './Components/LessonSpeedDial';
 import { LessonBottomNavigation } from './Components/LessonBottomNavigation';
 import { LessonAvatar } from './Components/LessonAvatar';
+import { LessonList } from './Components/LessonList';
 
 function App() {
   return (
@@ -51,7 +52,8 @@ function App() {
       {/* <LessonBadge/> */}
       {/* <LessonSpeedDial/> */}
       {/* <LessonBottomNavigation/> */}
-      <LessonAvatar/>
+      {/* <LessonAvatar/> */}
+      <LessonList/>
     </div>
   );
 }
