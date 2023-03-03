@@ -25,6 +25,7 @@ import { LessonSpeedDial } from './Components/LessonSpeedDial';
 import { LessonBottomNavigation } from './Components/LessonBottomNavigation';
 import { LessonAvatar } from './Components/LessonAvatar';
 import { LessonList } from './Components/LessonList';
+import { LessonToolTip } from './Components/LessonToolTip';
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
       {/* <LessonSpeedDial/> */}
       {/* <LessonBottomNavigation/> */}
       {/* <LessonAvatar/> */}
-      <LessonList/>
+      {/* <LessonList/> */}
+      <LessonToolTip/>
     </div>
   );
 }
