@@ -31,6 +31,7 @@ import { LessonDialog } from './Components/LessonDialog';
 import { LessonSnackBar } from './Components/LessonSnackBar';
 import { LessonProgress } from './Components/LessonProgress';
 import { LessonSkeleton } from './Components/LessonSkeleton';
+import {LessonLoadingButton} from "./Components/LessonLoadingButton"
 
 function App() {
   return (
@@ -65,7 +66,8 @@ function App() {
       {/* <LessonDialog/> */}
       {/* <LessonSnackBar/> */}
       {/* <LessonProgress/> */}
-      <LessonSkeleton/>
+      {/* <LessonSkeleton/> */}
+      <LessonLoadingButton/>
     </div>
   );
 }

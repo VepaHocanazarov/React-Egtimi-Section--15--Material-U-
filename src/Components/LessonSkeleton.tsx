@@ -14,7 +14,7 @@ export const LessonSkeleton = () => {
             animation="wave"/>
         ) :(
             <img 
-            src="https://source.unsplash.com/random/256*144"
+            src="https://source.unsplash.com/random/500*500"
              alt="skeleton"
             width={500}
             height={500} />
