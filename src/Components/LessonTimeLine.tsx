@@ -3,6 +3,29 @@ import {Timeline,TimelineItem,TimelineSeparator,TimelineConnector,TimelineConten
 
 export const LessonTimeLine = () => {
   return (
-    <div>LessonTimeLine</div>
+    <Timeline>
+    <TimelineItem>
+        <TimelineSeparator>
+            <TimelineDot/>
+            <TimelineConnector/>
+        </TimelineSeparator>
+        <TimelineContent>Yemek Ye</TimelineContent>
+    </TimelineItem>
+
+    <TimelineItem>
+        <TimelineSeparator>
+            <TimelineDot/>
+            <TimelineConnector/>
+        </TimelineSeparator>
+        <TimelineContent>Kod Yaz</TimelineContent>
+    </TimelineItem>
+
+    <TimelineItem>
+        <TimelineSeparator>
+            <TimelineDot/>
+        </TimelineSeparator>
+        <TimelineContent>Git uyu</TimelineContent>
+    </TimelineItem>
+</Timeline>
   )
 }
