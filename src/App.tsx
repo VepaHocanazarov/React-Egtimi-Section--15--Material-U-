@@ -34,6 +34,7 @@ import { LessonSkeleton } from './Components/LessonSkeleton';
 import {LessonLoadingButton} from "./Components/LessonLoadingButton"
 import { LessonTable } from './Components/LessonTable';
 import { LessonTabs } from './Components/LessonTabs';
+import { LessonMasonry } from './Components/LessonMasonry';
 
 function App() {
   return (
@@ -70,7 +71,8 @@ function App() {
       {/* <LessonProgress/> */}
       {/* <LessonSkeleton/> */}
       {/* <LessonLoadingButton/> */}
-      <LessonTabs/>
+      {/* <LessonTabs/> */}
+      <LessonMasonry/>
     </div>
   );
 }
