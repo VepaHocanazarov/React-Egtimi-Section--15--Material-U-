@@ -37,9 +37,21 @@ import { LessonTabs } from './Components/LessonTabs';
 import  {LessonMasonry}  from './Components/LessonMasonry';
 import { LessonTimeLine } from './Components/LessonTimeLine';
 import { LessonCustomization } from './Components/LessonCustomization';
+import { createTheme,colors,ThemeProvider} from '@mui/material';
+
+
+const theme = createTheme({
+  palette:{
+    secondary:{
+  main:colors.brown[500],
+    }
+  }
+})
 
 function App() {
   return (
+
+    <ThemeProvider theme={theme}>
     <div className="App">
       {/* <LessonTypography/> */}
       {/* <LessonButton /> */}
@@ -78,6 +90,8 @@ function App() {
      {/* <LessonTimeLine/> */}
      <LessonCustomization/>
     </div>
+    </ThemeProvider>
+
   );
 }
 
